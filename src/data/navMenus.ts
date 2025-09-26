@@ -22,11 +22,6 @@ export const navMenus: INavItem[] = [
     icon: faUser,
   },
   {
-    name: "Services",
-    link: "/#services",
-    icon: faBriefcase,
-  },
-  {
     name: "Experiences",
     link: "/#experiences",
     icon: faTimeline,
@@ -45,10 +40,5 @@ export const navMenus: INavItem[] = [
     name: "Contact",
     link: "/#contact",
     icon: faEnvelope,
-  },
-  {
-    name: "Payment",
-    link: "/payment",
-    icon: faCreditCard,
   },
 ];

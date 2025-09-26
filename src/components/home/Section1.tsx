@@ -6,7 +6,7 @@ import ResponsiveBox from "@/components/core/ResponsiveBox";
 import Row from "@/components/core/Row";
 import { FlipWords } from "@/components/common/FlipWords";
 import socialLinks from "@/data/socialLinks";
-import TalkButton from "./ui/TalkButton";
+import CVButton from "./ui/CVButton";
 
 const HomeSection1 = ({ id }: Readonly<{ id: string }>) => {
   return (
@@ -21,21 +21,20 @@ const HomeSection1 = ({ id }: Readonly<{ id: string }>) => {
               Hi there, I am
             </p>
             <FlipWords
-              words={["Nikhil Rajput.", "@nixrajput."]}
+              words={["Enzo Spadoni."]}
               className="text-2xl/normal sm:text-3xl/normal md:text-5xl/normal lg:text-6xl/normal xl:text-7xl/normal dark:text-[var(--primaryColor)] text-[var(--primaryColor)] font-bold text-center"
             />
           </div>
           <p className="text-sm/normal md:text-base/normal dark:text-[var(--textColorLight)] text-[var(--textColorLight)]">
             Full Stack Developer 💻 SDE 🛠️ Open Source 🌍
           </p>
-
           <div className="gap-4 mt-12 lg:mt-16 flex flex-col md:flex-row">
-            <TalkButton />
+            <CVButton />
           </div>
         </Column>
 
         <div className="mt-12 lg:mt-16 w-full flex flex-col items-center">
-          <p className="text-base/6 font-medium">Follow me here</p>
+          <p className="text-base/6 font-medium">Contact me here</p>
 
           <Row classNames="mt-2 gap-2">
             {socialLinks.slice(0, 5).map((link, index) => {

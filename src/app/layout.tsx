@@ -25,9 +25,9 @@ const poppins = Poppins({
 });
 
 export const metadata: Metadata = {
-  title: "Nikhil Rajput",
+  title: "Enzo Spadoni",
   description:
-    "Nikhil Rajput is a proficient Software Engineer and Full Stack Developer from India, skilled in front-end and back-end development using modern tech stacks.",
+    "Enzo Spadoni is a proficient Software Engineer and Full Stack Developer from Argentina, skilled in front-end and back-end development using modern tech stacks.",
   robots: {
     index: true,
     follow: true,
