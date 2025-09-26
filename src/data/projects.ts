@@ -28,12 +28,13 @@ const projects: IProjectItem[] = [
   {
     id: "fenice",
     title: "Fenice",
-    description: "A website for a dental center using React.js, Tailwind.",
+    description:
+      "This project is a modern, responsive website for a dental imaging clinic, built with React and Tailwind CSS. The site highlights the clinic’s diagnostic imaging services, showcases its team of dental professionals, and presents examples of their work. Visitors can explore detailed profiles of the specialists, view service descriptions, and easily get in touch through an integrated contact form to request a personalized quote.",
     icon: "/skills/react.svg",
     repoType: RepoType.Public,
     projectType: ProjectType.Personal,
-    githubUrl: "https://github.com/nixrajput/video-calling-app-flutter",
-    url: "https://github.com/nixrajput/video-calling-app-flutter/releases",
+    githubUrl: "https://github.com/spadonienzo/Fenice",
+    url: "https://fenice-nine.vercel.app/",
     tags: ["React.js", "Tailwind"],
   },
 ];
