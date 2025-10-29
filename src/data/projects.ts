@@ -13,18 +13,18 @@ const projects: IProjectItem[] = [
     url: "https://rick-and-morty-espadoni.vercel.app/",
     tags: ["React.js", "Redux", "Node.js", "Express.js", "PostgreSQL"],
   },
-  {
-    id: "emaily",
-    title: "Emaily",
-    description:
-      "This project is a full-stack web application for managing and distributing online surveys. I built it using React and Redux on the front end, with a Node.js and Express backend and a MongoDB database. The platform allows registered users to create an account, purchase credits through a secure Stripe payment gateway, and use those credits to send customized survey emails to their recipients.",
-    icon: "/skills/react.svg",
-    repoType: RepoType.Public,
-    projectType: ProjectType.Personal,
-    githubUrl: "https://github.com/spadonienzo/emaily",
-    url: "https://emaily-3ue6.onrender.com/",
-    tags: ["React.js", "Redux", "Node.js", "Express.js", "Stripe", "MongoDB"],
-  },
+  // {
+  //   id: "emaily",
+  //   title: "Emaily",
+  //   description:
+  //     "This project is a full-stack web application for managing and distributing online surveys. I built it using React and Redux on the front end, with a Node.js and Express backend and a MongoDB database. The platform allows registered users to create an account, purchase credits through a secure Stripe payment gateway, and use those credits to send customized survey emails to their recipients.",
+  //   icon: "/skills/react.svg",
+  //   repoType: RepoType.Public,
+  //   projectType: ProjectType.Personal,
+  //   githubUrl: "https://github.com/spadonienzo/emaily",
+  //   url: "https://emaily-3ue6.onrender.com/",
+  //   tags: ["React.js", "Redux", "Node.js", "Express.js", "Stripe", "MongoDB"],
+  // },
   {
     id: "fenice",
     title: "Fenice",
