@@ -17,7 +17,7 @@ const projects: IProjectItem[] = [
     id: "ElementX",
     title: "ElementX",
     description:
-      "This project is a full-stack web application for managing and distributing online surveys. I built it using React and Redux on the front end, with a Node.js and Express backend and a MongoDB database. The platform allows registered users to create an account, purchase credits through a secure Stripe payment gateway, and use those credits to send customized survey emails to their recipients.",
+      "This project is a web page for a mining company. I built it using React and Tailwind. With multiple interfaces.",
     icon: "/skills/react.svg",
     repoType: RepoType.Public,
     projectType: ProjectType.Personal,

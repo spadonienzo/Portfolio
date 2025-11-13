@@ -2,7 +2,7 @@ const CVButton = () => {
   return (
     <a
       className="app__filled_btn min-w-[10rem]"
-      href="/CV%20Enzo%20Spadoni.pdf"
+      href="public\CV_EnzoSpadoni_EN.pdf"
       download
     >
       CV
